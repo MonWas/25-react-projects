@@ -1,0 +1,48 @@
+.acc-wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.acc-wrapper button {
+    padding: 10px 20px;
+    background: #38598b;
+    color: #a2a8d3;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.accordion {
+    width: 500px;
+}
+
+.item {
+    background: #38598b;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: 610px;
+}
+
+.title {
+    color: #a2a8d3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.acc-content {
+    color: #e7eaf6;
+    height: auto;
+}
+
+.header {
+    color: #113f67;
+}
