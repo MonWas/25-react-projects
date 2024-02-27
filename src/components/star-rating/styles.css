@@ -1,0 +1,16 @@
+.active {
+    color: #fff700;
+}
+
+.inactive {
+    color: #e7eaf6;
+}
+
+.star-rating {
+    padding: 50px;
+    align-items: center;
+}
+
+h1 {
+    padding-bottom: 50px;
+}

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './styles.css';
 
 export default function RandomColor() {
   const [typeOfColor, setTypeOfColor] = useState("hex");
@@ -36,8 +37,9 @@ export default function RandomColor() {
     <div
       style={{
         width: "100vw",
-        height: "100vh",
+        height: "75vh",
         background: color,
+        padding: "25px",
       }}
     >
       <button onClick={() => setTypeOfColor("hex")}>Create HEX Color</button>
