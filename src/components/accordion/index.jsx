@@ -1,5 +1,3 @@
-// Single / Multiple Selection
-
 import { useState } from "react";
 import data from "./data";
 import "./styles.css";
@@ -14,14 +12,14 @@ export default function Accordion() {
   }
 
   function handleMultiSelection(getCurrentId) {
-    let cpyMutiple = [...multiple];
-    const findIndexOfCurrentId = cpyMutiple.indexOf(getCurrentId);
+    let copyMultiple = [...multiple];
+    const findIndexOfCurrentId = copyMultiple.indexOf(getCurrentId);
 
     console.log(findIndexOfCurrentId);
-    if (findIndexOfCurrentId === -1) cpyMutiple.push(getCurrentId);
-    else cpyMutiple.splice(findIndexOfCurrentId, 1);
+    if (findIndexOfCurrentId === -1) copyMultiple.push(getCurrentId);
+    else copyMultiple.splice(findIndexOfCurrentId, 1);
 
-    setMultiple(cpyMutiple);
+    setMultiple(copyMultiple);
   }
 
   console.log(selected, multiple);

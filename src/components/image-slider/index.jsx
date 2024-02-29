@@ -40,7 +40,7 @@ export default function ImageSlider({ url, limit = 5, page = 1 }) {
   console.log(images);
 
   if (loading) {
-    return <div>Loading data ! Please wait</div>;
+    return <div>Loading data, please wait</div>;
   }
 
   if (errorMsg !== null) {
@@ -48,8 +48,8 @@ export default function ImageSlider({ url, limit = 5, page = 1 }) {
   }
 
   return (
-    <div>
-        <h1 className="header">Image Slider</h1>
+    <div className="header">
+        <h1>Image Slider</h1>
     <div className="container">
       <BsArrowLeftCircleFill
         onClick={handlePrevious}

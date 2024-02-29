@@ -1,10 +1,14 @@
+.header {
+    padding: 100px;
+}
+
 .container {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 600px;
-    padding-left: 60rem;
+    padding-left: 54rem;
 }
 
 .current-image {
