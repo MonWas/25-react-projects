@@ -4,6 +4,8 @@ import ImageSlider from './components/image-slider';
 import RandomColorGenerator from './components/random-color-generator';
 import StarRating from './components/star-rating';
 import LoadMoreButton from './components/load-more-button';
+import TreeView from './components/tree-view';
+import menus from "./components/tree-view/data";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         limit={"10"}/>
       {/*Load More Button*/}
       <LoadMoreButton/>
+      {/*Tree View*/}
+      <TreeView menus={menus}/>
     </div>
   );
 }

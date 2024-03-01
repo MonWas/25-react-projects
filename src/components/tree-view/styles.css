@@ -1,0 +1,23 @@
+.container {
+    padding: 0 0 100px 870px;
+}
+
+.tree-view-container {
+    min-height: 45vh;
+    width: 350px;
+    background: #38598b;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    color: #e7eaf6;
+}
+
+.menu-list-container {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
