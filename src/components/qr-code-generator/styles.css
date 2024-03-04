@@ -1,0 +1,13 @@
+.wrapper {
+    padding: 100px 25px;
+}
+
+.input {
+    padding: 25px;
+}
+
+input {
+    padding: 10px;
+    margin: 25px;
+    border-radius: 25px;
+}
